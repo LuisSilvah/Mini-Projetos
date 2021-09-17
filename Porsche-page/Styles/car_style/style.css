@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.car_wrapper {
+  height: 83vh;
+  border-radius: 50px;
+  background: rgba(85, 85, 85, 0.4);
+
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.car_header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.car_logo {
+  position: relative;
+  margin: 0 0 0 100px;
+  align-items: center;
+  display: flex;
+}
+
+.car_logo a {
+  color: #000000;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.car_logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.car_menu-items ul {
+  margin-left: 500px;
+  display: flex;
+  list-style: none;
+}
+
+.car_items-link a {
+  color: #000000;
+  padding-left: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.car_items-link a:hover {
+  color: #fff9f9dc;
+}
+
+.menu-hamburguer {
+  position: relative;
+  padding-left: 60px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.car_dots {
+  position: absolute;
+  margin-left: 86%;
+  margin-top: -100px;
+}
+
+.car_dots li {
+  display: flex;
+  padding: 1px;
+  background: #ccc;
+  border-radius: 100%;
+  margin: 10px 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.car_dots li.dots-active {
+  background: #18c495;
+}
+
+.car_wrapper-text {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border-color: #000000;
+  border: 1px dashed;
+}
+
+.car_tittle {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.car_subTittle {
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0 0 0;
+  letter-spacing: 1.5px;
+}
+
+.car_socialMedia ul {
+  position: relative;
+  top: 60px;
+  margin-left: 26px;
+  display: flex;
+  list-style: none;
+}
+
+.car_socialMedia li {
+  padding-left: 10px;
+}
+.car_items-social a {
+  background-color: #000000cb;
+  color: #fff9f9dc;
+  font-size: 17px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.car_circleRed {
+  position: absolute;
+  background-color: rgb(230, 43, 43);
+  margin-left: 700px;
+  top: 215px;
+  border-radius: 100%;
+  width: 330px;
+  height: 330px;
+}
+
+.car_image img {
+  position: absolute;
+  margin-left: 550px;
+  top: 250px;
+  width: 700px;
+}
