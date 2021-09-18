@@ -19,4 +19,4 @@ Esta não é apenas uma simples lista de projetos, mas uma coleção que descrev
 
 | Name                                                                              | Short Description                                          | Tier       |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| [Card 3D](./Mini-projetos/card-3d)                                                | Binary-to-Decimal number converter                         | 1-Beginner |
+| [Card 3D](./Mini-projetos/card-3d/Card-3D.md)                                                | Binary-to-Decimal number converter                         | 1-Beginner |
