@@ -17,6 +17,6 @@ Esta não é apenas uma simples lista de projetos, mas uma coleção que descrev
 ### Projects
 
 
-| Name                                                                              | Short Description                                          | Tier       |
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Card%203D/Card-3D.md)| Binary-to-Decimal number converter                         | 1-Beginner |
+| Name                                                                              | Short Description                                          | 
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | 
+| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Card%203D/Card-3D.md)| Card com efeito 3d                    |
