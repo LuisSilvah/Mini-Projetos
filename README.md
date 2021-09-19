@@ -19,4 +19,6 @@ Esta não é apenas uma simples lista de projetos, mas uma coleção que descrev
 
 | Name                                                                              | Short Description                                          | 
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | 
-| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Card%203D/Card-3D.md)| Card com efeito 3d                    |
+| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-3D.md)| Card com efeito 3D                                         |
+| [Card hover effects](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-hover-effects.md)| Card com efeito hover                |      
+|
