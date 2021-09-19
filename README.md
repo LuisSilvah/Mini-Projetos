@@ -21,4 +21,6 @@ Esta não é apenas uma simples lista de projetos, mas uma coleção que descrev
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | 
 | [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-3D.md)| Card com efeito 3D                                         |
 | [Card hover effects](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-hover-effects.md)| Card com efeito hover                |      
-|
+| [Nike shoes](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Nike-Shoes.md)| E-commerce simple                                    |
+| [Porsche page](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Porsche-page.md)| Simple page Porsche                              |
+| [Product card](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Product-card.md)| Card produtos com efeito JS                      |
