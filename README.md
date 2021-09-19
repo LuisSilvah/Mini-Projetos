@@ -17,11 +17,11 @@ Esta não é apenas uma simples lista de projetos, mas uma coleção que descrev
 ### Projects
 
 
-| Name                                                                              | Short Description                                          | 
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | 
-| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-3D.md)| Card com efeito 3D                                         |
-| [Card hover effects](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-hover-effects.md)| Card com efeito hover                |
-| [Product card](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Product-card.md)| Card produtos com efeito JS                      |
-| [Nike shoes](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Nike-Shoes.md)| E-commerce simple                                    |
-| [Porsche page](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Porsche-page.md)| Simple page Porsche                              |
-| [README](https://github.com/LuisSilvah/Mini-projetos/tree/main/Readme)| Description de cada projeto                                            |
+| Name                                                                              | Short Description                                          | Code  |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ----- |
+| [Card 3D](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-3D.md)| Card com efeito 3D                                         | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Card%203D) |
+| [Card hover effects](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Card-hover-effects.md)| Card com efeito hover                | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Card%20Hover%20Effects) |
+| [Product card](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Product-card.md)| Card produtos com efeito JS                      | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Product%20Card) |
+| [Nike shoes](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Nike-Shoes.md)| E-commerce simple                                    | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Nike%20Shoes)   |
+| [Porsche page](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Porsche-page.md)| Simple page Porsche                              | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Porsche-page) |
+| [README](https://github.com/LuisSilvah/Mini-projetos/tree/main/Readme)| Description de cada projeto                                            |  |
