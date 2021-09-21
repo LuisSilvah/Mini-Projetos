@@ -11,9 +11,6 @@ Essas aplicações são:
 - Ótimo para usar como exemplos em tutoriais (artigos ou vídeos) :page_with_curl:;
 - Fácil de completar e também facilmente extensível com novos recursos :ok_hand:;
 
-
-Esta não é apenas uma simples lista de projetos, mas uma coleção que descreve cada projeto em detalhes suficientes para que você possa desenvolvê-lo do zero!
-
 ### Projects
 
 
