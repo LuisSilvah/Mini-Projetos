@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Costs</title>
+</head>
+<body>
+    <header>
+        <div class="header_left">
+        <div class="logo">
+            <a href="#Home">
+            <img src="../img/dollar.png" alt="Dollar Photo" srcset="" />
+        </a>
+        </div>
+
+        <!-- <div class="search">
+            <button><i class="fas fa-search"></i></button>  
+            <input type="text" name="search" id="search" placeholder="Search everything..." autocomplete="off"/>
+        </div> -->
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="item_menu"><a href="#Home">Home</a></li>
+                    <li class="item_menu"><a href="../Pages/Project.html">Project</a></li>
+                    <li class="item_menu"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header_right">
+        <div class="notification icon active_yeap">
+            <div class="active_yeap"></div>
+            <i class="fas fa-bell"></i>
+        </div>
+
+        <div class="profile icon">
+            <i class="far fa-user-circle"></i>
+        </div>
+    </div>
+
+    </header>
+    
+    <section id="Project">
+        <div class="project_edit">
+            <div class="header_editProject">
+                <div class="headerLeft_Project">
+                <mark>Projeto: New Project</mark>
+            </div>
+                <div class="headerRight_Project">
+                <button>Editar Projeto</button>
+            </div>
+            </div>
+            <div class="section_budget">
+            <div class="budget">
+            <h4>Total de Orçamento:</h4> <p>R$400</p> 
+        </div>                        
+        <div class="budget">
+            <h4>Total Utilizado:</h4> <p>R$200</p>
+            
+        </div>
+        </div>
+
+        <hr />
+        <div class="section_addProject">
+        <div class="header_addProject">
+            <div class="headerLeft_Project">
+            <h1>Adicione um serviço:</h1>
+            </div>
+            
+            <div class="headerRight_Project">
+            <button>Adicionar serviço</button>
+            </div>
+        </div>
+        <div class="container_addProject" style="display: block;">
+            
+        <div class="create_project">
+            
+            <form action="">
+                <label for="name_project">Nome do projeto:</label>
+                
+                <input 
+                type="text" 
+                name="name_project" 
+                id="nameProject" 
+                autocomplete="off" 
+                placeholder="Insira o nome do projeto" 
+                />
+
+                <label for="money_projeto">Orçamento do projeto:</label>
+
+                <input 
+                type="text" 
+                name="money_project" 
+                id="moneyProject" 
+                autocomplete="off" 
+                placeholder="Insira o orçamento total"
+                />
+
+                <label for="info_projeto">Informações do projeto</label>
+                <textarea 
+                name="info_project" 
+                id="infoProject" 
+                autocomplete="off" 
+                placeholder="Insira informações do projeto"
+                cols="30" rows="5"></textarea>
+
+                <button>Adicionar Projeto</button>
+            </form>
+        </div>
+        </div>
+    </div>
+        <hr />
+        <div class="section_service">
+            <h1>Serviço</h1>
+            <div class="content_project">
+                <div class="card box">
+                    <div class="header_card">
+                        <h1>Novo Projeto</h1>
+                    </div>
+                    <div class="content_card">
+                        <h3>Nome do Projeto</h3>
+                        <div class="content_money">
+                        <h4>Orçamento:</h4>
+                        <p>R$3000</p>
+                    </div>
+                    <div class="content_info">
+                        <h4>Informações:</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper enim at.</p>
+                    </div>
+                    </div>
+                    <div class="footer_card">
+                        <button>
+                           <a href="../Pages/Projet_edit.html">
+                            <i class="fas fa-edit"></i> 
+                            Editar
+                        </a>
+                        </button>
+                        <button>
+                            <i class="fas fa-trash-alt"></i>
+                            Excluir
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card box">
+                    <div class="header_card">
+                        <h1>Projeto Atualizado</h1>
+                    </div>
+                    <div class="content_card">
+                        <h3>Nome do Projeto</h3>
+                        <div class="content_money">
+                        <h4>Orçamento:</h4>
+                        <p>R$3000</p>
+                    </div>  
+                    <div class="content_info">
+                        <h4>Informações:</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper enim at.</p>
+                    </div>
+                    </div>
+                    <div class="footer_card">
+                        <button>
+                            <a href="../Pages/Projet_edit.html">
+                             <i class="fas fa-edit"></i> 
+                             Editar
+                         </a>
+                        </button>
+                        <button>
+                            <i class="fas fa-trash-alt"></i>
+                            Excluir
+                        </button>
+                    </div>
+              </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

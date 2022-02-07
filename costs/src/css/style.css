@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --grey: #f5f0f0d7;
+    --dark: rgba(0, 0, 0, 0.9);
+    --gold: rgba(253, 217, 10, 0.918);
+}
+
+
+#Home .welcome, 
+#New_project .create_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul, a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    color: var(--grey);
+}
+
+header .header_left .item_menu  a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: var(--grey);
+}
+
+header .header_left .item_menu a:hover,
+header .header_right .icon:hover
+{
+    color: var(--white);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    min-width: 100%;
+    background-color: var(--dark);
+}
+
+header .header_left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 100px;
+    
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header .header_left .search {
+    margin: 0 20px;
+}
+
+header .header_left .logo img{
+    width: 40px;
+    height: 40px;
+}
+
+header .header_right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+header .header_right .icon {
+    color: var(--grey);
+    margin: 0 10px;
+}
+
+
+header .header_right .notification .active_yeap{
+    position: absolute;
+    margin-left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(238, 12, 12, 0.911);
+}
+
+#Home .welcome h1{
+    margin-top: 3.75rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.9rem;
+}
+
+#Home .welcome mark {
+    padding: 2px 3px;
+    background-color: var(--dark);
+    color: var(--gold);
+}
+
+#Home .welcome p {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+    color: var(--dark);
+}
+
+#Home .welcome button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: var(--dark);
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+#Home .welcome button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#Home .welcome .wrapper_img img{
+    width: 100%;
+    height: 350px;
+}
+
+#New_project .create_project h1 {
+    margin-top: 3.75rem;
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+}
+
+#New_project .create_project p {
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    color: #505050d7;
+}
+
+
+#New_project .create_project form,
+#Project .section_addProject .container_addProject form{
+    display: flex;
+    flex-direction: column;
+}
+
+#New_project .create_project form label,
+#Project .section_addProject .container_addProject form label{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#New_project .create_project form input,
+#Project .section_addProject .container_addProject form input,
+#Project .section_addProject .container_addProject form textarea {
+    outline: 0;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    padding: 9px; 
+    width: 25rem;
+    margin-bottom: 1.3rem;
+}
+
+#Project .section_addProject .container_addProject form input,
+#Project .section_addProject .container_addProject form textarea {
+    width: 100%;
+}
+
+#New_project .create_project form button,
+#Project .section_addProject .container_addProject form button {
+    padding: 5px 15px;
+    width: 40%;
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--dark);
+    color: var(--white);
+    cursor: pointer;
+}
+#Project .section_addProject .container_addProject form button {
+    width: 20%;
+    color: var(--grey);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#Project .my_project .header_project {
+    margin-top: 3.75rem;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Project .my_project .header_project h1 {
+    flex: 1;
+    margin-left: 3rem;
+}
+
+#Project .my_project .header_project button {
+    padding: 8px 7px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--dark);
+    color: var(--white);
+    cursor: pointer;
+    margin-right: 6rem;
+}
+
+ 
+
+#Project .my_project .content_project,
+#Project .project_edit .section_service .content_project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Project .my_project .content_project .box,
+#Project .project_edit .section_service .content_project .box {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+
+#Project .my_project .content_project .card,
+#Project .project_edit .section_service .content_project .card {
+    margin: 20px;
+}
+
+#Project .my_project .content_project .card .header_card,
+#Project .project_edit .section_service .content_project .card .header_card {
+    padding: 4px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--gold);
+}
+
+#Project .my_project .content_project .card .content_card,
+#Project .project_edit .section_service .content_project .card .content_card {
+    margin-top: 1.4rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#Project .my_project .content_project .card .content_card .content_money,
+#Project .project_edit .section_service .content_project .card .content_card .content_money {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Project .my_project .content_project .card .content_card h4,
+#Project .project_edit .section_service .content_project .card .content_card h4 {
+    font-size: 0.9rem;
+    color: var(--dark);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#Project .my_project .content_project .card .content_card p,
+#Project .project_edit .section_service .content_project .card .content_card p {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    color: var(--dark);
+    font-weight: 600;
+    font-weight: inherit;
+}
+
+#Project .my_project .content_project .card .content_card .content_info p,
+#Project .project_edit .section_service .content_project .card .content_card .content_info p {
+    height: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-weight: inherit;
+    color: var(--dark);
+    white-space: wrap; 
+}
+
+#Project .my_project .content_project .card .footer_card,
+#Project .project_edit .section_service .content_project .card .footer_card {
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+#Project .my_project .content_project .card .footer_card button,
+#Project .project_edit .section_service .content_project .card .footer_card button {
+    padding: 5px 10px;
+    width: 6rem;
+    color: var(--grey);
+    background-color: var(--dark);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#Project .project_edit {
+    margin: 40px 30px 0 50px;
+}
+
+#Project .project_edit .header_editProject {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Project .project_edit .headerLeft_Project {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+#Project .project_edit .headerLeft_Project  mark {
+    background-color: var(--dark);
+    color: var(--gold);
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+
+#Project .project_edit .headerRight_Project button {
+    background-color: var(--dark);
+    color: var(--grey);
+    border: none;
+    padding: 12px 15px;
+}
+
+
+#Project .project_edit .section_budget {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#Project .project_edit .section_budget .budget{
+    display: flex;
+    margin: 5px 0;
+}
+
+#Project .project_edit .section_budget .budget h4 {
+    font-weight: 600;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 5px;
+    color: rgb(36, 36, 36);
+}
+
+#Project .project_edit .section_budget .budget p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-weight: normal;
+    color: var(--dark);
+}
+
+#Project .project_edit .section_addProject .header_addProject {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#Project .project_edit .section_service {
+    margin-top: 20px;
+}
+
+#Error404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Error404 h3 button {
+    background-color: var(--dark);
+    color: var(--gold);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px 13px;
+}
+
+#Error404 h3 button a {
+    color: var(--gold);
+}
+
+#Error404 .wrapper_img404 img {
+    margin: 0 25%;
+    width: 50%;
+    height: 20%;
+}
+
