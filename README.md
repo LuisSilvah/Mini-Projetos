@@ -23,4 +23,5 @@ Essas aplicações são:
 | [Porsche page](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Porsche-page.md)| Simple page Porsche                              | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Porsche-page) |
 | [Crud](https://github.com/LuisSilvah/Mini-projetos/tree/main/Crud)| Simple page Porsche                                                        | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Crud) |
 | [Rubik cube](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Rubik-Cube.md)| Magic Cube                                           | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Rubik%20cube) |
+| [Weahter app](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Weather-app.md)| Weather App                                        | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Weather%20app) |
 | [README](https://github.com/LuisSilvah/Mini-projetos/tree/main/Readme)| Description de cada projeto                                            |  |
