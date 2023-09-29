@@ -24,4 +24,5 @@ Essas aplicações são:
 | [Crud](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Crud.md)| Simple Crud js                                                   | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Crud) |
 | [Rubik cube](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Rubik-Cube.md)| Magic Cube                                           | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Rubik%20cube) |
 | [Weahter app](https://github.com/LuisSilvah/Mini-projetos/blob/main/Readme/Weather-app.md)| Weather App                                        | [Code](https://github.com/LuisSilvah/Mini-projetos/tree/main/Weather%20app) |
+| [Locadora](https://github.com/LuisSilvah/locadora-php/blob/main/README.md)| Locadora PHP                                                       | [Code](https://github.com/LuisSilvah/locadora-php) |
 | [README](https://github.com/LuisSilvah/Mini-projetos/tree/main/Readme)| Description de cada projeto                                            |  |
